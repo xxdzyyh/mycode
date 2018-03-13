@@ -1,30 +1,26 @@
 //
-//  ViewController.m
+//  MasonryTableVC.m
 //  MyCode
 //
-//  Created by wangxuefeng on 2018/3/12.
+//  Created by yunmai on 2018/3/13.
 //  Copyright © 2018年 wangxuefeng. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "MasonryTableVC.h"
+#import "MasonryStackVC.h"
 
-@interface ViewController () <UITableViewDelegate,UITableViewDataSource>
+@interface MasonryTableVC ()
 
-@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSArray *dataSource;
 
 @end
 
-@implementation ViewController
+@implementation MasonryTableVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.tableView.dataSource = self;
-    self.tableView.delegate = self;
-    
-    self.dataSource = @[@[@"Masonry",@"MasonryTableVC"]];
+    self.dataSource = @[@[@"多个控件等分布局",@"MasonryStackVC"]];
 }
 
 #pragma mark - Table view data source
@@ -34,15 +30,13 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    
+
     return self.dataSource.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];;
-    
-    
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+ 
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
     }

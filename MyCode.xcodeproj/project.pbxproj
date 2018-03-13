@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6EE4716A6F1A4AEEA7E084A8 /* libPods-MyCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4758E34A1B1D02A5DE2C6565 /* libPods-MyCode.a */; };
+		B8F6E7D72057A4B50055B6A6 /* MasonryTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E7D62057A4B50055B6A6 /* MasonryTableVC.m */; };
+		B8F6E7DB2057A5D70055B6A6 /* MasonryStackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E7DA2057A5D70055B6A6 /* MasonryStackVC.m */; };
 		D9E15E71718BB0C5F31A57B3 /* libPods-MyCodeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F000221EF817A92A8DE936 /* libPods-MyCodeTests.a */; };
 		EC31D3D72056C85400C0518C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC31D3D62056C85400C0518C /* AppDelegate.m */; };
 		EC31D3DA2056C85400C0518C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC31D3D92056C85400C0518C /* ViewController.m */; };
@@ -32,6 +34,10 @@
 		2FAD46736C478DFD38D88FF8 /* Pods-MyCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCodeTests/Pods-MyCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4758E34A1B1D02A5DE2C6565 /* libPods-MyCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F000221EF817A92A8DE936 /* libPods-MyCodeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCodeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F6E7D52057A4B50055B6A6 /* MasonryTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryTableVC.h; sourceTree = "<group>"; };
+		B8F6E7D62057A4B50055B6A6 /* MasonryTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryTableVC.m; sourceTree = "<group>"; };
+		B8F6E7D92057A5D70055B6A6 /* MasonryStackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryStackVC.h; sourceTree = "<group>"; };
+		B8F6E7DA2057A5D70055B6A6 /* MasonryStackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryStackVC.m; sourceTree = "<group>"; };
 		BD5CAD76037BEB1C0A659D98 /* Pods-MyCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCode/Pods-MyCode.debug.xcconfig"; sourceTree = "<group>"; };
 		E805261BFCA5FAF5E70922AB /* Pods-MyCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCodeTests/Pods-MyCodeTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC31D3D22056C85400C0518C /* MyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,12 +96,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B8F6E7D42057A48B0055B6A6 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				B8F6E7D52057A4B50055B6A6 /* MasonryTableVC.h */,
+				B8F6E7D62057A4B50055B6A6 /* MasonryTableVC.m */,
+				B8F6E7D92057A5D70055B6A6 /* MasonryStackVC.h */,
+				B8F6E7DA2057A5D70055B6A6 /* MasonryStackVC.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
 		EC31D3C92056C85400C0518C = {
 			isa = PBXGroup;
 			children = (
-				EC31D3FB2056C9F300C0518C /* New Group */,
-				EC31D3FA2056C9E000C0518C /* Masonry */,
-				EC31D3F92056C9B700C0518C /* 1 */,
+				B8F6E7D42057A48B0055B6A6 /* Masonry */,
 				EC31D3D42056C85400C0518C /* MyCode */,
 				EC31D3ED2056C85500C0518C /* MyCodeTests */,
 				EC31D3D32056C85400C0518C /* Products */,
@@ -136,27 +151,6 @@
 				EC31D3F02056C85500C0518C /* Info.plist */,
 			);
 			path = MyCodeTests;
-			sourceTree = "<group>";
-		};
-		EC31D3F92056C9B700C0518C /* 1 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 1;
-			sourceTree = "<group>";
-		};
-		EC31D3FA2056C9E000C0518C /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Masonry;
-			sourceTree = "<group>";
-		};
-		EC31D3FB2056C9F300C0518C /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +361,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC31D3DA2056C85400C0518C /* ViewController.m in Sources */,
+				B8F6E7D72057A4B50055B6A6 /* MasonryTableVC.m in Sources */,
+				B8F6E7DB2057A5D70055B6A6 /* MasonryStackVC.m in Sources */,
 				EC31D3E52056C85400C0518C /* main.m in Sources */,
 				EC31D3D72056C85400C0518C /* AppDelegate.m in Sources */,
 			);
