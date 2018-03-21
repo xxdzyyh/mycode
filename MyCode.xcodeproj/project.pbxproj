@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6EE4716A6F1A4AEEA7E084A8 /* libPods-MyCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4758E34A1B1D02A5DE2C6565 /* libPods-MyCode.a */; };
+		B89EF99D20620CD000040B95 /* UIView+XABase.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF99C20620CD000040B95 /* UIView+XABase.m */; };
+		B89EF9A320620D0E00040B95 /* XALivePKProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF99F20620D0E00040B95 /* XALivePKProgressView.m */; };
+		B89EF9A420620D0E00040B95 /* XALiveTwoGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF9A120620D0E00040B95 /* XALiveTwoGradientView.m */; };
+		B89EF9A820620D3800040B95 /* pic_live_pk_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B89EF9A620620D3800040B95 /* pic_live_pk_bar@2x.png */; };
+		B89EF9A920620D3800040B95 /* pic_live_pk_bar@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B89EF9A720620D3800040B95 /* pic_live_pk_bar@3x.png */; };
+		B89EF9AD20620DE400040B95 /* TestGradientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF9AB20620DE400040B95 /* TestGradientVC.m */; };
+		B89EF9AE20620DE400040B95 /* TestGradientVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B89EF9AC20620DE400040B95 /* TestGradientVC.xib */; };
+		B89EF9B320623BB300040B95 /* OpenURLVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF9B120623BB300040B95 /* OpenURLVC.m */; };
+		B89EF9B420623BB300040B95 /* OpenURLVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B89EF9B220623BB300040B95 /* OpenURLVC.xib */; };
+		B89EF9B620623D6200040B95 /* test28.plist in Resources */ = {isa = PBXBuildFile; fileRef = B89EF9B520623D6200040B95 /* test28.plist */; };
 		B8F6E7D72057A4B50055B6A6 /* MasonryTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E7D62057A4B50055B6A6 /* MasonryTableVC.m */; };
 		B8F6E7DB2057A5D70055B6A6 /* MasonryStackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E7DA2057A5D70055B6A6 /* MasonryStackVC.m */; };
 		D9E15E71718BB0C5F31A57B3 /* libPods-MyCodeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F000221EF817A92A8DE936 /* libPods-MyCodeTests.a */; };
@@ -34,6 +44,21 @@
 		2FAD46736C478DFD38D88FF8 /* Pods-MyCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCodeTests/Pods-MyCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4758E34A1B1D02A5DE2C6565 /* libPods-MyCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F000221EF817A92A8DE936 /* libPods-MyCodeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCodeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89EF99B20620CD000040B95 /* UIView+XABase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XABase.h"; sourceTree = "<group>"; };
+		B89EF99C20620CD000040B95 /* UIView+XABase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XABase.m"; sourceTree = "<group>"; };
+		B89EF99F20620D0E00040B95 /* XALivePKProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XALivePKProgressView.m; sourceTree = "<group>"; };
+		B89EF9A020620D0E00040B95 /* XALivePKProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XALivePKProgressView.h; sourceTree = "<group>"; };
+		B89EF9A120620D0E00040B95 /* XALiveTwoGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XALiveTwoGradientView.m; sourceTree = "<group>"; };
+		B89EF9A220620D0E00040B95 /* XALiveTwoGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XALiveTwoGradientView.h; sourceTree = "<group>"; };
+		B89EF9A620620D3800040B95 /* pic_live_pk_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_live_pk_bar@2x.png"; sourceTree = "<group>"; };
+		B89EF9A720620D3800040B95 /* pic_live_pk_bar@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pic_live_pk_bar@3x.png"; sourceTree = "<group>"; };
+		B89EF9AA20620DE400040B95 /* TestGradientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGradientVC.h; sourceTree = "<group>"; };
+		B89EF9AB20620DE400040B95 /* TestGradientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGradientVC.m; sourceTree = "<group>"; };
+		B89EF9AC20620DE400040B95 /* TestGradientVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestGradientVC.xib; sourceTree = "<group>"; };
+		B89EF9B020623BB300040B95 /* OpenURLVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenURLVC.h; sourceTree = "<group>"; };
+		B89EF9B120623BB300040B95 /* OpenURLVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenURLVC.m; sourceTree = "<group>"; };
+		B89EF9B220623BB300040B95 /* OpenURLVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpenURLVC.xib; sourceTree = "<group>"; };
+		B89EF9B520623D6200040B95 /* test28.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = test28.plist; sourceTree = "<group>"; };
 		B8F6E7D52057A4B50055B6A6 /* MasonryTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryTableVC.h; sourceTree = "<group>"; };
 		B8F6E7D62057A4B50055B6A6 /* MasonryTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryTableVC.m; sourceTree = "<group>"; };
 		B8F6E7D92057A5D70055B6A6 /* MasonryStackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryStackVC.h; sourceTree = "<group>"; };
@@ -96,6 +121,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B89EF99A20620CAE00040B95 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B89EF99B20620CD000040B95 /* UIView+XABase.h */,
+				B89EF99C20620CD000040B95 /* UIView+XABase.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B89EF99E20620CFE00040B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B89EF9A020620D0E00040B95 /* XALivePKProgressView.h */,
+				B89EF99F20620D0E00040B95 /* XALivePKProgressView.m */,
+				B89EF9A220620D0E00040B95 /* XALiveTwoGradientView.h */,
+				B89EF9A120620D0E00040B95 /* XALiveTwoGradientView.m */,
+				B89EF9AA20620DE400040B95 /* TestGradientVC.h */,
+				B89EF9AB20620DE400040B95 /* TestGradientVC.m */,
+				B89EF9AC20620DE400040B95 /* TestGradientVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B89EF9A520620D1600040B95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B89EF9A620620D3800040B95 /* pic_live_pk_bar@2x.png */,
+				B89EF9A720620D3800040B95 /* pic_live_pk_bar@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B89EF9AF20623B8900040B95 /* Openurl */ = {
+			isa = PBXGroup;
+			children = (
+				B89EF9B520623D6200040B95 /* test28.plist */,
+				B89EF9B020623BB300040B95 /* OpenURLVC.h */,
+				B89EF9B120623BB300040B95 /* OpenURLVC.m */,
+				B89EF9B220623BB300040B95 /* OpenURLVC.xib */,
+			);
+			path = Openurl;
+			sourceTree = "<group>";
+		};
 		B8F6E7D42057A48B0055B6A6 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +178,10 @@
 		EC31D3C92056C85400C0518C = {
 			isa = PBXGroup;
 			children = (
+				B89EF9AF20623B8900040B95 /* Openurl */,
+				B89EF9A520620D1600040B95 /* Resources */,
+				B89EF99E20620CFE00040B95 /* View */,
+				B89EF99A20620CAE00040B95 /* Base */,
 				B8F6E7D42057A48B0055B6A6 /* Masonry */,
 				EC31D3D42056C85400C0518C /* MyCode */,
 				EC31D3ED2056C85500C0518C /* MyCodeTests */,
@@ -241,9 +313,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89EF9B620623D6200040B95 /* test28.plist in Resources */,
+				B89EF9A820620D3800040B95 /* pic_live_pk_bar@2x.png in Resources */,
 				EC31D3E22056C85400C0518C /* LaunchScreen.storyboard in Resources */,
 				EC31D3DF2056C85400C0518C /* Assets.xcassets in Resources */,
 				EC31D3DD2056C85400C0518C /* Main.storyboard in Resources */,
+				B89EF9B420623BB300040B95 /* OpenURLVC.xib in Resources */,
+				B89EF9AE20620DE400040B95 /* TestGradientVC.xib in Resources */,
+				B89EF9A920620D3800040B95 /* pic_live_pk_bar@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +437,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B89EF9B320623BB300040B95 /* OpenURLVC.m in Sources */,
+				B89EF99D20620CD000040B95 /* UIView+XABase.m in Sources */,
+				B89EF9AD20620DE400040B95 /* TestGradientVC.m in Sources */,
+				B89EF9A320620D0E00040B95 /* XALivePKProgressView.m in Sources */,
 				EC31D3DA2056C85400C0518C /* ViewController.m in Sources */,
 				B8F6E7D72057A4B50055B6A6 /* MasonryTableVC.m in Sources */,
 				B8F6E7DB2057A5D70055B6A6 /* MasonryStackVC.m in Sources */,
 				EC31D3E52056C85400C0518C /* main.m in Sources */,
+				B89EF9A420620D0E00040B95 /* XALiveTwoGradientView.m in Sources */,
 				EC31D3D72056C85400C0518C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +598,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R7MU2WX88;
 				INFOPLIST_FILE = MyCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feng.MyCode;
@@ -530,6 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R7MU2WX88;
 				INFOPLIST_FILE = MyCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feng.MyCode;

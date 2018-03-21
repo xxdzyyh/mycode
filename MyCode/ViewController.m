@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import "MasonryTableVC.h"
-
+#import "TestGradientVC.h"
+#import "OpenURLVC.h"
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -24,7 +25,9 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
-    self.dataSource = @[@[@"Masonry",@"MasonryTableVC"]];
+    self.dataSource = @[@[@"Masonry",@"MasonryTableVC"],
+                        @[@"渐变进度",@"TestGradientVC"],
+                        @[@"OpenURLVC",@"OpenURLVC"]];
 }
 
 #pragma mark - Table view data source
