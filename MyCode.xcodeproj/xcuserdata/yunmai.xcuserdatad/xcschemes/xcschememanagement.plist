@@ -7,7 +7,20 @@
 		<key>MyCode.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>EC31D3D12056C85400C0518C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC31D3E92056C85500C0518C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

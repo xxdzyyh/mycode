@@ -21,7 +21,7 @@
 
 - (IBAction)downloadButtonClicked:(id)sender {
     
-    NSString *url = @"itms-services://?action=download-manifest&url=https://nh5.nagezan.net/wx/loveshow/2018-/repair_loveshow/plist/test28.plist";
+    NSString *url = @"itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/xxdzyyh/mycode/master/Openurl/test28.plist";
     
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
 }

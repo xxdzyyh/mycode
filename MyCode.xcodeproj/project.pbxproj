@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		6EE4716A6F1A4AEEA7E084A8 /* libPods-MyCode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4758E34A1B1D02A5DE2C6565 /* libPods-MyCode.a */; };
+		B88CB0E6207CDFAE00A1F09C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = B88CB0E5207CDFAE00A1F09C /* Person.m */; };
+		B88CB0E9207CE08C00A1F09C /* RuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B88CB0E8207CE08C00A1F09C /* RuntimeHelper.m */; };
+		B88CB0EC207CE13E00A1F09C /* TestRuntimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B88CB0EB207CE13E00A1F09C /* TestRuntimeVC.m */; };
 		B89EF99D20620CD000040B95 /* UIView+XABase.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF99C20620CD000040B95 /* UIView+XABase.m */; };
 		B89EF9A320620D0E00040B95 /* XALivePKProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF99F20620D0E00040B95 /* XALivePKProgressView.m */; };
 		B89EF9A420620D0E00040B95 /* XALiveTwoGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = B89EF9A120620D0E00040B95 /* XALiveTwoGradientView.m */; };
@@ -20,6 +23,9 @@
 		B89EF9B620623D6200040B95 /* test28.plist in Resources */ = {isa = PBXBuildFile; fileRef = B89EF9B520623D6200040B95 /* test28.plist */; };
 		B8F6E7D72057A4B50055B6A6 /* MasonryTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E7D62057A4B50055B6A6 /* MasonryTableVC.m */; };
 		B8F6E7DB2057A5D70055B6A6 /* MasonryStackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8F6E7DA2057A5D70055B6A6 /* MasonryStackVC.m */; };
+		B8FFA31A20B64B91008EE93E /* ImageMemoryVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FFA31820B64B91008EE93E /* ImageMemoryVC.m */; };
+		B8FFA31B20B64B91008EE93E /* ImageMemoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8FFA31920B64B91008EE93E /* ImageMemoryVC.xib */; };
+		B8FFA31E20B65F54008EE93E /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B8FFA31C20B65DE7008EE93E /* 1.png */; };
 		D9E15E71718BB0C5F31A57B3 /* libPods-MyCodeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85F000221EF817A92A8DE936 /* libPods-MyCodeTests.a */; };
 		EC31D3D72056C85400C0518C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC31D3D62056C85400C0518C /* AppDelegate.m */; };
 		EC31D3DA2056C85400C0518C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC31D3D92056C85400C0518C /* ViewController.m */; };
@@ -44,6 +50,12 @@
 		2FAD46736C478DFD38D88FF8 /* Pods-MyCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCodeTests/Pods-MyCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4758E34A1B1D02A5DE2C6565 /* libPods-MyCode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCode.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85F000221EF817A92A8DE936 /* libPods-MyCodeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCodeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88CB0E4207CDFAE00A1F09C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		B88CB0E5207CDFAE00A1F09C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		B88CB0E7207CE08C00A1F09C /* RuntimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuntimeHelper.h; sourceTree = "<group>"; };
+		B88CB0E8207CE08C00A1F09C /* RuntimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeHelper.m; sourceTree = "<group>"; };
+		B88CB0EA207CE13E00A1F09C /* TestRuntimeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestRuntimeVC.h; sourceTree = "<group>"; };
+		B88CB0EB207CE13E00A1F09C /* TestRuntimeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestRuntimeVC.m; sourceTree = "<group>"; };
 		B89EF99B20620CD000040B95 /* UIView+XABase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XABase.h"; sourceTree = "<group>"; };
 		B89EF99C20620CD000040B95 /* UIView+XABase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XABase.m"; sourceTree = "<group>"; };
 		B89EF99F20620D0E00040B95 /* XALivePKProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XALivePKProgressView.m; sourceTree = "<group>"; };
@@ -63,6 +75,10 @@
 		B8F6E7D62057A4B50055B6A6 /* MasonryTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryTableVC.m; sourceTree = "<group>"; };
 		B8F6E7D92057A5D70055B6A6 /* MasonryStackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryStackVC.h; sourceTree = "<group>"; };
 		B8F6E7DA2057A5D70055B6A6 /* MasonryStackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryStackVC.m; sourceTree = "<group>"; };
+		B8FFA31720B64B91008EE93E /* ImageMemoryVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMemoryVC.h; sourceTree = "<group>"; };
+		B8FFA31820B64B91008EE93E /* ImageMemoryVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMemoryVC.m; sourceTree = "<group>"; };
+		B8FFA31920B64B91008EE93E /* ImageMemoryVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageMemoryVC.xib; sourceTree = "<group>"; };
+		B8FFA31C20B65DE7008EE93E /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		BD5CAD76037BEB1C0A659D98 /* Pods-MyCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCode/Pods-MyCode.debug.xcconfig"; sourceTree = "<group>"; };
 		E805261BFCA5FAF5E70922AB /* Pods-MyCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCodeTests/Pods-MyCodeTests.release.xcconfig"; sourceTree = "<group>"; };
 		EC31D3D22056C85400C0518C /* MyCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +137,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B88CB0E3207CDF7800A1F09C /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				B88CB0E4207CDFAE00A1F09C /* Person.h */,
+				B88CB0E5207CDFAE00A1F09C /* Person.m */,
+				B88CB0E7207CE08C00A1F09C /* RuntimeHelper.h */,
+				B88CB0E8207CE08C00A1F09C /* RuntimeHelper.m */,
+				B88CB0EA207CE13E00A1F09C /* TestRuntimeVC.h */,
+				B88CB0EB207CE13E00A1F09C /* TestRuntimeVC.m */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
 		B89EF99A20620CAE00040B95 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +176,7 @@
 		B89EF9A520620D1600040B95 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B8FFA31C20B65DE7008EE93E /* 1.png */,
 				B89EF9A620620D3800040B95 /* pic_live_pk_bar@2x.png */,
 				B89EF9A720620D3800040B95 /* pic_live_pk_bar@3x.png */,
 			);
@@ -175,9 +205,29 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		B8FFA31520B64B5D008EE93E /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				B8FFA31620B64B65008EE93E /* UIImage */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		B8FFA31620B64B65008EE93E /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				B8FFA31720B64B91008EE93E /* ImageMemoryVC.h */,
+				B8FFA31820B64B91008EE93E /* ImageMemoryVC.m */,
+				B8FFA31920B64B91008EE93E /* ImageMemoryVC.xib */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
 		EC31D3C92056C85400C0518C = {
 			isa = PBXGroup;
 			children = (
+				B8FFA31520B64B5D008EE93E /* Memory */,
+				B88CB0E3207CDF7800A1F09C /* Runtime */,
 				B89EF9AF20623B8900040B95 /* Openurl */,
 				B89EF9A520620D1600040B95 /* Resources */,
 				B89EF99E20620CFE00040B95 /* View */,
@@ -315,10 +365,12 @@
 			files = (
 				B89EF9B620623D6200040B95 /* test28.plist in Resources */,
 				B89EF9A820620D3800040B95 /* pic_live_pk_bar@2x.png in Resources */,
+				B8FFA31E20B65F54008EE93E /* 1.png in Resources */,
 				EC31D3E22056C85400C0518C /* LaunchScreen.storyboard in Resources */,
 				EC31D3DF2056C85400C0518C /* Assets.xcassets in Resources */,
 				EC31D3DD2056C85400C0518C /* Main.storyboard in Resources */,
 				B89EF9B420623BB300040B95 /* OpenURLVC.xib in Resources */,
+				B8FFA31B20B64B91008EE93E /* ImageMemoryVC.xib in Resources */,
 				B89EF9AE20620DE400040B95 /* TestGradientVC.xib in Resources */,
 				B89EF9A920620D3800040B95 /* pic_live_pk_bar@3x.png in Resources */,
 			);
@@ -439,13 +491,17 @@
 			files = (
 				B89EF9B320623BB300040B95 /* OpenURLVC.m in Sources */,
 				B89EF99D20620CD000040B95 /* UIView+XABase.m in Sources */,
+				B88CB0E6207CDFAE00A1F09C /* Person.m in Sources */,
 				B89EF9AD20620DE400040B95 /* TestGradientVC.m in Sources */,
 				B89EF9A320620D0E00040B95 /* XALivePKProgressView.m in Sources */,
 				EC31D3DA2056C85400C0518C /* ViewController.m in Sources */,
 				B8F6E7D72057A4B50055B6A6 /* MasonryTableVC.m in Sources */,
 				B8F6E7DB2057A5D70055B6A6 /* MasonryStackVC.m in Sources */,
 				EC31D3E52056C85400C0518C /* main.m in Sources */,
+				B88CB0EC207CE13E00A1F09C /* TestRuntimeVC.m in Sources */,
 				B89EF9A420620D0E00040B95 /* XALiveTwoGradientView.m in Sources */,
+				B8FFA31A20B64B91008EE93E /* ImageMemoryVC.m in Sources */,
+				B88CB0E9207CE08C00A1F09C /* RuntimeHelper.m in Sources */,
 				EC31D3D72056C85400C0518C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -27,7 +27,10 @@
     
     self.dataSource = @[@[@"Masonry",@"MasonryTableVC"],
                         @[@"渐变进度",@"TestGradientVC"],
-                        @[@"OpenURLVC",@"OpenURLVC"]];
+                        @[@"OpenURLVC",@"OpenURLVC"],
+                        @[@"Runtime",@"TestRuntimeVC"],
+                        @[@"图片占用内存",@"ImageMemoryVC"]];
+    
 }
 
 #pragma mark - Table view data source
